@@ -1,48 +1,54 @@
-/* 1ab2f5 */
-*{
-    color:#fff;
+/* Page Title */
+
+h1{
+    font-size:6rem;
+    margin: -10vh 0;
+    text-align: center;
 }
+
+/* Entire Question Block */
 .card{
     min-height: 60%;
     min-width: 50vw;
     background:#1A1A1A ;
-    /* border: 8px solid #fff; */
-    border-radius: 10px;
+    border: 8px solid #fff;
     opacity: 0.8;
     text-align: center;
     display: flex;
     flex-direction: column;
-    align-items: center
+    align-items: center;
+    margin-bottom: 20px;
+    
 }
 
-p{
-    font-size:6rem;
-    margin-bottom: 10px;
-}
+/* Card Title */
 
 .card__question{
     padding: 20px;
+    font-size:2rem;
 }
 
+/* Each Button */
 .card__btn{
-    width: 30vw;
+    min-width: 30vw;
     max-width: 350px;
+    color:#fff;
     height: auto;
     background: none;
     border: 3px solid #fff;
-    /* border-radius: 10px; */
     font-size:larger;
     outline: none;
     padding:5px;
     transition: all 0.5s;
-    margin: 15px;
+    margin-bottom: 25px;
 }
 .card__btn:hover{
     background: #1ab2f5;
     
 }
 
-.card__btn__back{
+/* Card option Buttons */
+.card__btn__option{
     background: #1ab2f5;
     outline: none;
     padding:5px;
@@ -50,7 +56,8 @@ p{
     transition: all 0.3s;
     border: 2px solid #fff;
     margin: 10px;
+    color:#fff;
 }
-.card__btn__back:hover{
+.card__btn__option:hover{
     background: #1A1A1A;   
 }
